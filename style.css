@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Mono", monospace;
+}
+
+:root {
+    font-size: 62.5%;
+    --jagged-ice: #c5e4e7;
+    --white: #fff;
+    --greyish-turquoise: #5e7a7d;
+    --squeeze: #f3f9fa;
+    --sherpa-blue: #00474b;
+    --topaz: #26c2ae;
+    --beetle-green: #547878;
+    --regent-grey: #7f9d9f;
+    --water-leaf: #9febdf;
+}
+
+body {
+    font-size: 1.6rem;
+    background: var(--jagged-ice);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+main {
+    background: var(--white);
+    padding: 3.2rem 2.4rem
+}
