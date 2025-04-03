@@ -18,37 +18,37 @@
  --water-leaf: #9febdf;
 }
 
-body {
+   body {
  font-size: 1.6rem;
     background: var(--jagged-ice);
 }
 
-header {
+   header {
     display: flex;
         justify-content: center;
     padding-top: 5rem;
     padding-bottom: 4rem;
 }
 
-main {
+   main {
     background: var(--white);
     padding: 3.2rem 2.4rem
     border-radius: 2.5rem 2.5rem 0 0;.
 }
 
-.info{
+  .info{
 
     margin-inline: .8rem;
 
     div {
         margin-bottom: 3.2rem;
     }
-    strong{
+      strong{
     color: var(--greyish-turquoise);
     }
 
 
-.input-box {
+    .input-box {
     margin-top: .6rem;
     background: var(--squeeze);
     padding: .6rem 1.8rem;
@@ -56,7 +56,7 @@ main {
     align-items: center;
     border-radius: .5rem;
 
-    input{
+      input{
         border: none;
         background: transparent;
         text-align: right;
@@ -73,10 +73,10 @@ main {
         }
     }
 }
-.input-box:has(input:focus) {
+   .input-box:has(input:focus) {
     outline: 2px solid var(--topaz);
 }
-.tip {
+      .tip {
     div{
         margin-top: 1.6rem;
         display: grid;
@@ -93,11 +93,11 @@ main {
             border-radius: .5rem;
         }
 
-        .button-selected{
+    .button-selected{
             background: var(--topaz);
         }
 
-        input {
+     input {
             width: 100%;
             border: none;
             background: var(--squeeze);
@@ -136,6 +136,45 @@ main {
             font-weight: 700;
 
             span{
+                color: var(--regent-grey);
+                font-size: 1.3rem;
+            }
+        }
+
+        strong {
+            font-size: 3.2rem;
+            color: var(--topaz);
+
+        }
+    }
+
+    button {
+        background: var(--topaz);
+        color: var(--sherpa-blue);
+        font-size: 2rem;
+        text-transform: uppercase;
+        width: 100%;
+        border: none;
+        border-radius: .5rem;
+        font-weight: 700;
+        padding-block: .9rem;
+    }
+}
+   .results {
+    background: var(--sherpa-blue);
+    border-radius: 1.5rem;
+    padding: 4rem 2.4rem 2.4rem;
+    .amount,
+    .total {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2.4rem;
+
+        p{
+            color: var(--white);
+            font-weight: 700;
+     span{
                 color: var(--regent-grey);
                 font-size: 1.3rem;
             }
